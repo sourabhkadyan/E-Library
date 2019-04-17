@@ -1,0 +1,138 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font:90% Calibri,sans-serif;
+    text-align: center;
+}
+
+div#header{
+    background-color: #F5F5DC;
+}
+div#header h1{
+    height:80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    text-align: center;
+}
+
+div#container{
+    height: auto;
+    width:100%;
+    margin: 0 auto;
+    text-align: left;
+    background-size: cover;
+}
+div#wrapper{
+    float: right;
+    width: 80%;
+}
+div#wrapper{
+    line-height: 1.5;
+    text-align: justify;
+}
+div#navi{
+    float: left;;
+    height: 620px;
+    width:200px;
+    background-color: #1d2632;
+}
+div#navi ul{
+    margin-left: 10px;
+    list-style-type: square;
+}
+
+div#navi li{
+    margin-bottom: 5px;
+}
+div#footer{
+    clear: both;
+    width: 100%;
+    background: #BFBD93;
+}
+div#footer p{
+    text-align: center;
+    margin: 0;
+    padding: 5px 10px;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+h3#zoom a{
+    color: whitesmoke;
+}
+ul#bar a{
+    color: whitesmoke;
+}
+h3#zoom:hover{
+    transition: transform .5s;
+    transform: scale(1.25);
+}
+ul#bar :hover{
+    transition: transform .5s;
+    transform: scale(1.25);
+}
+ul#bar a:hover{
+    color:white;
+}
+h3#zoom a:hover{
+    color:white;
+}
+
+p{
+    margin:0 10px 10px;
+}
+#heading{
+    padding-left: 100px;
+    text-align: match-;
+}
+
+#center{
+    height: auto;
+    width: 300px;
+    margin-left:100px;
+}
+label,input,button,select,textarea{
+    display:block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    width: 100%;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.success{
+    color: green;
+    text-align: center;
+}
+.record{
+    list-style-type: square;
+}
+.record li{
+    margin-top: 15px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table td,table th{
+    border:1px solid #ddd;
+    padding: 5px;
+}
+
+strong{
+    color: orange;
+    padding: 5px;
+}
+i{
+    color: blue;
+    padding: 5px;
+}
